@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/index.ts"
+    "dev": "nodemon src/index.ts",
+    "test:e2e:": "cypress run",
+    "test:e2e:open": "cypress open"
   },
   "keywords": [],
   "author": "",
